@@ -71,20 +71,6 @@ body {
   line-height: 1.5;
 }
 
-.newsletter-cta {
-}
-
-.newsletter-cta > .content {
-  display: grid;
-  gap: 1rem;
-  padding: 1.5rem;
-}
-
-.newsletter-cta .title {
-  font-size: var(--fs-900);
-  font-weight: var(--fw-bold);
-}
-
 .checkmark-list {
   display: grid;
   gap: 0.625rem;
@@ -97,4 +83,18 @@ body {
 
 .checkmark-list li::before {
   content: url('/assets/images/icon-list.svg');
+}
+
+.newsletter-cta {
+}
+
+.newsletter-cta > .content {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.newsletter-cta .title {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-bold);
 }
