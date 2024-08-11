@@ -77,7 +77,13 @@ input {
   font: inherit;
   font-size: var(--fs-400);
   font-weight: var(--fw-regular);
+
+  /* So when it is active, it will show browser default focus ring to be darker color */
   border: 1px solid var(--clr-neutral-200);
+}
+
+input::placeholder {
+  color: var(--clr-neutral-200);
 }
 
 .form-group {
