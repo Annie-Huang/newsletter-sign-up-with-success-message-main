@@ -113,6 +113,14 @@ input::placeholder {
   );
 }
 
+form {
+  background: purple;
+  padding: 1rem;
+
+  /* if you don't have a new stacking context, and if you have above, you can see that the shadown is behind the background color */
+  isolation: isolate;
+}
+
 .button:hover::after,
 .button:focus-visible::after {
   content: '';
