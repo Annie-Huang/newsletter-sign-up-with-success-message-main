@@ -93,6 +93,16 @@ input::placeholder {
   font-weight: var(--fw-bold);
 }
 
+.button {
+  background: var(--clr-neutral-800);
+  color: var(--clr-neutral-100);
+  font: inherit;
+  font-weight: var(--fw-bold);
+  border: 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
 .checkmark-list {
   display: grid;
   gap: 0.625rem;
@@ -119,4 +129,9 @@ input::placeholder {
 .newsletter-cta .title {
   font-size: var(--fs-900);
   font-weight: var(--fw-bold);
+}
+
+.newsletter-cta form {
+  display: grid;
+  gap: 1.5rem;
 }
