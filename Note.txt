@@ -1,0 +1,8 @@
+Design to Code // HTML & CSS from scratch // Frontend Mentor Form
+(https://www.youtube.com/watch?v=Z0duh-0xJ2Y)
+
+https://github.com/kevin-powell/newsletter-sign-up-with-success-message-main
+https://github.com/Annie-Huang/newsletter-sign-up-with-success-message-main
+
+https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv/hub
+--------------------------------------------------------------------------------------
