@@ -105,6 +105,11 @@ input:not(:focus):invalid {
   display: none;
 }
 
+/* if the form group has something that is invalid and that something is not on focus, show error */
+.form-group:has(:not(:focus):invalid) > .error {
+  display: block;
+}
+
 .form-group.with-error-field {
   grid-template-columns: 1fr 1fr;
 }
