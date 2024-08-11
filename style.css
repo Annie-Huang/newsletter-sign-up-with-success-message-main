@@ -84,3 +84,17 @@ body {
   font-size: var(--fs-900);
   font-weight: var(--fw-bold);
 }
+
+.checkmark-list {
+  display: grid;
+  gap: 0.625rem;
+}
+
+.checkmark-list li {
+  display: grid;
+  grid-template-columns: 2.5rem auto;
+}
+
+.checkmark-list li::before {
+  content: url('/assets/images/icon-list.svg');
+}
