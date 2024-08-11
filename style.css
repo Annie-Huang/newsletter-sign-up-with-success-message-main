@@ -100,13 +100,19 @@ input:not(:focus):invalid {
 }
 
 .form-group > .error {
+  /* Still put the .error into the same line of label after switching the template order. */
+  grid-row: 1;
+  grid-column: 2;
+
   text-align: end;
   color: var(--clr-accent-400);
   display: none;
 }
 
 /* if the form group has something that is invalid and that something is not on focus, show error */
-.form-group:has(:not(:focus):invalid) > .error {
+/*.form-group:has(:not(:focus):invalid) > .error {*/
+/* has does not have perfect browser support, switch it use :not after switch order in template */
+.form-group > :not(:focus):invalid + .error {
   display: block;
 }
 
