@@ -186,6 +186,7 @@ form {
 }
 
 .newsletter-cta {
+  border-radius: 1rem;
   background-color: var(--clr-neutral-100);
 }
 
@@ -198,6 +199,10 @@ form {
 .newsletter-cta .title {
   font-size: var(--fs-900);
   font-weight: var(--fw-bold);
+}
+
+.newsletter-cta img {
+  margin-inline: auto;
 }
 
 .newsletter-cta form {
