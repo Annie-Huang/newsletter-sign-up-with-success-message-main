@@ -194,7 +194,12 @@ form {
 @media (min-width: 650px) {
   .newsletter-cta {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr max-content;
+  }
+
+  .newsletter-cta > .content {
+    grid-column: 1;
+    grid-row: 1;
   }
 }
 
