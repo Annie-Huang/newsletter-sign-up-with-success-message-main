@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Regular'), url('/assets/fonts/Roboto-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Bold'), url('/assets/fonts/Roboto-Bold.ttf');
+  font-weight: 700;
+}
+
 :root {
   --clr-neutral-800: hsl(234, 29%, 20%);
   --clr-neutral-700: hsl(235, 18%, 26%);
